@@ -1,3 +1,23 @@
 [2025-05-14 10:00:00]
 Description: Initial setup and guideline acknowledgment
 Prompt: Use the file .guidelines in all request
+
+[2025-05-14 10:10:00]
+Description: Visual improvement for DetailScreen (RPG Card style)
+Prompt: # MEJORA VISUAL DetailScreen (Jetpack Compose)
+## OBJETIVO GENERAL
+Transformar la pantalla DetailScreen en una tarjeta profesional de personaje tipo videojuego/RPG, manteniendo la arquitectura actual intacta.
+... (full prompt provided by user)
+
+[2025-05-14 10:25:00]
+Description: Visual improvement for HomeScreen grid (Character Cards)
+Prompt: # MEJORA VISUAL GRID HomeScreen (Jetpack Compose)
+## OBJETIVO GENERAL
+Mejorar únicamente la apariencia visual del grid de personajes en HomeScreen sin modificar la arquitectura del proyecto.
+... (full prompt provided by user)
+
+[2025-05-14 13:00:00]
+Description: Refining HomeScreen grid cards (Centering and Dynamic Backgrounds)
+Prompt: # PROMPT PARA GEMINI (ANDROID STUDIO + JETPACK COMPOSE)
+1. Centrado de imágenes en las cards: perfectamente centrada, horizontal y vertical, evitar desplazamiento visual.
+2. Color dinámico del fondo de cada card: cambiar negro transparente por color dinámico del personaje (themeColor) con alpha.
