@@ -10,6 +10,25 @@ import androidx.compose.material3.dynamicLightColorScheme
 import androidx.compose.material3.lightColorScheme
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.platform.LocalContext
+import androidx.compose.material3.Typography
+import androidx.compose.ui.text.TextStyle
+import androidx.compose.ui.unit.sp
+import androidx.compose.ui.text.font.FontWeight
+
+
+val typography = Typography(
+    bodyLarge = TextStyle(
+        fontFamily = MyFont,
+        fontSize = 16.sp
+    ),
+    titleLarge = TextStyle(
+        fontFamily = MyFont,
+        fontSize = 22.sp,
+        fontWeight = FontWeight.Bold
+    )
+)
+
+
 
 private val DarkColorScheme = darkColorScheme(
     primary = Purple80,
@@ -51,8 +70,9 @@ fun _2pExamenJossTheme(
     }
 
     MaterialTheme(
+
         colorScheme = colorScheme,
-        typography = Typography,
+        typography = typography,
         content = content
     )
 }
